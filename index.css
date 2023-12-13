@@ -1,0 +1,112 @@
+@font-face { font-family: CursedTimerUlil-Aznm; src: url('CursedTimerUlil-Aznm.ttf'); } 
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.score-board {
+    background-color: #1F2937;
+    width: 700px;
+    margin: 100px auto;
+}
+
+.container {
+    margin-top: -20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;    
+}
+
+.team {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: #E5E7EB;
+}
+
+.score {
+    background-color: #080001;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -25px;
+}
+
+.score p {
+    color: #F94F6D;
+    font-family: "CursedTimerUlil-Aznm";
+    font-size: 90px;
+    font-weight: 400;
+}
+
+.add-points-btn {
+    border:2px solid #9AABD8;
+    background-color: inherit;
+    font-family: "CursedTimerUlil-Aznm";
+    color: #9AABD8;
+    height: 45px;
+    width: 45px;
+    margin-top: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.add-points-btn:hover {
+    background-color: #9AABD8;
+    border:2px solid #080001;
+    color: #080001;
+}
+
+.fouls {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fouls button {
+    margin-top: 25px;
+    font-family: "CursedTimerUlil-Aznm";
+    color: #9AABD8;
+    background-color: #1F2937;
+    height: 30px;
+    width: 75px;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.fouls-num {
+    background-color: #080001;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fouls-num p {
+    color: #F94F6D;
+    font-family: "CursedTimerUlil-Aznm";
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.reset-btn {
+    margin-top: 250px;
+    background-color: inherit;
+    font-family: "CursedTimerUlil-Aznm";
+    color: #E5E7EB;
+    font-size: 45px;
+    border: none;
+}
+
+.team-container {
+    width: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
